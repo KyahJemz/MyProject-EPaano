@@ -1,0 +1,72 @@
+body {
+    height: fit-content;
+}
+#contents {
+    color: white;
+    position: absolute;
+    top: 100px;
+    width: 100%;
+}
+.contents-container {
+    margin: auto;
+    width: 90%;
+    background-color: rgb(44, 44, 44);
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 2px white;
+}
+.donate-container {
+    position: relative;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.donate-container h3 {
+    position: absolute;
+    top:-55px;
+    text-align: center;
+    font-size: x-large;
+}
+.donate_image img{
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 50%;
+}
+.donate_image {
+    margin: 0px 75px 0px 75px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+.donate_image p{
+    font-size: 15px;
+}
+.donate-header {
+    padding-top: 20px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 3px 2px white;
+    border-bottom: 1px solid white;
+}
+.donate-header fieldset {
+    margin: auto;
+    width: 500px
+
+}
+.donate-header fieldset legend {
+    font-size: 30px;
+}
+.donate-footer {
+    margin-top: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 3px 2px white;
+    border-top: 1px solid white;
+    margin-bottom: 25px
+}

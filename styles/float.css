@@ -1,0 +1,22 @@
+#floaters {
+    z-index: 5;
+    position: fixed;
+    right: 10px;
+    top: 30%;
+}
+#floaters .floaters-container{
+    width: 30px;
+    height: 30px;
+    
+}
+#floaters .floaters-container img {
+    margin-bottom: 10px;
+    filter: invert(100%);
+}
+#floaters .floaters-container a {
+    width: fit-content;
+    height: fit-content;
+}
+#floaters .floaters-container a:hover {
+    filter: invert(50%);
+}

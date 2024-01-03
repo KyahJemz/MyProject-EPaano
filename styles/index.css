@@ -1,0 +1,210 @@
+/* GENERAL TAG - CSS */
+ul {
+    list-style-type: none
+}
+
+/* PAGE CONTENT - CSS */
+body {
+height: 1100px;
+}
+#header {
+    top: 0px;
+}
+#contents {
+    color: white;
+    position: relative;
+    top: 100px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+#contents * {
+    box-sizing: border-box;
+}
+.contents-container {
+    margin: auto;
+    width: 90%;
+    background-color: rgb(44, 44, 44);
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 2px white;
+    
+    
+}
+.contents-Header-container {
+    text-align: center;
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 350px;
+    background-image: url("../images/uploads/header_background.jpg") ;
+    background-size: 100%;
+}
+.page-contents-Header-text {
+    position: relative;
+    top: 50px;
+    left: 50%;
+    width: 50%;
+    color: rgb(230, 227, 227);
+    font-size: 20px;
+}
+
+#flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#left-page {
+    flex:70%;
+    border-right: 1px solid rgb(255, 255, 255);
+    padding-bottom: 30px;
+}
+
+#right-page {
+    flex: 30%;
+    padding-bottom: 30px;
+
+}
+
+#left-page h1 {
+    margin: 30px;
+    margin-bottom: 0;
+}
+
+.page-contents-suggested {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: max-content;
+    
+
+}
+
+
+
+.page-contents-category {
+    margin: auto;
+    width: fit-content;
+}
+
+
+.page-contents-category-list {
+    margin: 20px 20px 20px 20px;
+    width: fit-content;
+    
+}
+.page-contents-category-list input[type="submit"]{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    width: 200px;
+    font-size: x-large;
+    background-color: transparent;
+    display: inline-block;
+    margin-top: 10px;
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 2px 1px white;
+}
+.page-contents-category .subview {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    display: none;
+    padding: 5px 5px;
+    z-index: 1;
+    font-size: large;
+    background-color: #f9f9f965;  
+}
+.page-contents-category-list input[type="submit"]:hover{
+    background-color: rgba(255, 255, 255, 0.288);
+}
+.input-technology:hover .technology {
+    display: block;
+}
+.input-lifestyle:hover .lifestyle {
+    display: block;
+}
+.input-entertainment:hover .entertainment {
+    display: block;
+}
+.input-money:hover .money {
+    display: block;
+}
+.input-animals:hover .animals {
+    display: block;
+}
+.input-health:hover .health {
+    display: block;
+}
+.page-contents-category-list h1{
+    text-align: center;
+}
+
+
+
+
+/* DATA GENERATION */
+.page-contents-data-container {
+    display: flex;
+    box-shadow: 0px 0px 2px 1px white;
+    position: relative;
+    margin: 15px;
+    background-color: rgb(0, 0, 0);
+    width: 450px;
+    height: fit-content;
+}
+.page-contents-data-image {
+    box-shadow: 0px 0px 2px 1px white;
+    position: relative;
+    margin: 5px;
+    background-color: rgb(0, 0, 0);
+    width: 22%;
+    height: fit-content;
+    color: white;
+}
+
+.page-contents-data-image img {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.page-contents-data-rating {
+    position: relative;
+    top: 0;
+    margin: 5px;
+    width: 22%;
+    filter: invert(100%);
+}
+.page-contents-data-text {
+    color: white;
+    margin: 5px;
+    position: absolute;
+    right: 0px;
+    background-color: rgb(0, 0, 0);
+    width: 73%;
+    height: fit-content;
+    font-weight: bold;
+    top: 0px;
+}
+.page-contents-data-text p {
+    color: white;
+    margin: 5px;
+    font-size: 18px;
+}
+
+.contact {
+    width: fit-content;
+    margin: auto;
+}
+.contact input[type="text"] {
+    width: 250px;
+
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    #flex-container {   
+        flex-direction: column;
+    }
+}

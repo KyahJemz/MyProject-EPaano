@@ -1,0 +1,123 @@
+/* Login Page & Registration Page CSS */
+* {
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../images/uploads/login_background.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    font-family: monospace;
+    color: rgba(255, 255, 255, 0.822);
+    margin: 0;
+}
+a, a:visited {
+    text-decoration: none;
+    color: rgb(92, 50, 245);
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    min-height: 100%;
+}
+    #main .left-side {
+        flex: 60%;
+        padding: 40px;
+    }
+    #main .right-side {
+        flex: 40%;
+        padding-top: 250px;
+        padding-bottom: 150px;  
+    }
+    #main .login-right-side {
+        flex: 40%;
+        padding-top: 300px;
+        padding-bottom: 250px;
+    }
+
+#login-form {
+    padding: 0px 10px 20px 10px;
+    margin: auto;
+    width: 335px;
+    border: 1px solid;
+    box-shadow: 0px 0px 3px 2px rgba(70, 70, 70, 0.815);
+    background-color: rgba(0, 0, 0, 0.479);
+    text-align: center;
+}
+#form {
+    padding: 0px 10px 20px 10px;
+    margin: auto;
+    width: 360px;
+    border: 1px solid;
+    box-shadow: 0px 0px 3px 2px rgba(70, 70, 70, 0.815);
+    background-color: rgba(0, 0, 0, 0.479);
+    text-align: center;
+}
+    .from_alert {
+        background-color: rgba(255, 111, 111, 0.534);
+        border-radius: 3px;
+        border: 2px solid rgb(54, 2, 2);
+        font-size: small;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+    #form .from-title {
+        padding: 0;
+        margin: 0;
+    }
+    .form_ input {
+        margin: auto;
+        border-color: rgb(197, 197, 197);
+        background-color: rgb(231, 231, 231);
+        border-radius: 3px;
+        border: 1px solid;
+        padding: 7px;
+        margin-bottom: 5px;
+        width: 300px;
+    }
+    .form_ input[type="submit"] {
+        border-color: rgb(197, 197, 197);
+        background-color: rgb(93, 93, 253);
+        text-align: center;
+        width: 95%;
+        margin-top: 20px;
+    }
+    .form_ input[type="checkbox"] {
+        margin-top: 5px;
+        border-color: rgb(197, 197, 197);
+        background-color: rgb(93, 93, 253);
+        text-align: left;
+        width: 20px;
+    }
+    .form_ fieldset legend {
+        text-align: left;
+        font-size: large;
+    }
+
+#content h1{
+    font-size:5vw;
+    text-shadow: 2px 2px rgb(143, 67, 67);
+}
+#content h3 {
+    font-size: 2vw;
+    text-shadow: 3px 3px black;
+}
+
+#footer {
+    padding-top: 5px;
+    border-top: 1px solid white;
+    width: 95%;
+    margin: auto;
+}
+    #footer a {
+        padding: 0px 30px 10px 20px;
+    }
+
+@media screen and (max-width: 1000px) {
+    #main {   
+        flex-direction: column;
+    }
+    #content {
+        text-align: center;
+    }
+}
